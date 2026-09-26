@@ -1,5 +1,5 @@
 import { ArrowDown, ArrowUpRight, Linkedin } from 'lucide-react';
-import portfolioImg from '../assets/images/Portfolio_image.png';
+import portfolioImg from 'src/assets/images/Portfolio_image.png';
 
 export function Hero() {
   return (
