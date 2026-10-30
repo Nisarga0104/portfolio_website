@@ -29,7 +29,7 @@ export function Navbar() {
         ))}
       </nav>
       <div className="header-actions">
-        <a className="resume-link" href="/Nisarg_Kamble_AI_EGSS.pdf" download="Nisarg_Kamble_AI_EGSS.pdf">Resume <span aria-hidden="true">↗</span></a>
+        <a className="resume-link" href="/Nisarg_Kamble_DA.pdf" download="Nisarg_Kamble_DA.pdf">Resume <span aria-hidden="true">↗</span></a>
         <button className="menu-toggle" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} onClick={() => setOpen(!open)}>
           {open ? <X size={20} strokeWidth={1.5} /> : <Menu size={20} strokeWidth={1.5} />}
         </button>
