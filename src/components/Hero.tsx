@@ -12,10 +12,9 @@ export function Hero() {
           <a className="text-link" href="/Nisarg_Kamble_DA.pdf" download="Nisarg_Kamble_DA.pdf">Download resume <ArrowUpRight size={15} /></a>
         </div>
         <a className="social-link" href="https://www.linkedin.com/in/nisarg-kamble" target="_blank" rel="noreferrer"><Linkedin size={15} /> LinkedIn <span>↗</span></a>
-        <p className="hero-profile-note">AI Ethics <span>•</span> Governance <span>•</span> Safety <span>•</span> Strategy</p>
       </div>
       <div className="hero-portrait-wrap" aria-label="Portrait of Nisarg Kamble">
-        <img className="hero-portrait" src="/Portfolio_image.png" alt="Nisarg Kamble in a monochrome portrait" />
+        <img className="hero-portrait" src="/src/assets/images/Portfolio_image.png" alt="Nisarg Kamble in a monochrome portrait" />
         <a className="hero-explore" href="#about" aria-label="Explore the portfolio"><span>EXPLORE</span><ArrowDown size={15} /></a>
       </div>
     </section>
