@@ -117,10 +117,21 @@ export const certifications = [
 
 export const experience = [
   {
-    period: 'Early experience',
+    period: 'Nov 2025 – May 2026',
+    company: 'Pawar Tech Services Pvt. Ltd.',
+    role: 'Data Analyst Intern',
+    description: [
+      'Developed and maintained Power BI dashboards, KPI scorecards and management reports, using Python and Excel to monitor business performance, identify operational bottlenecks and support process improvement.',
+      'Built SQL-based ETL workflows to extract, transform and validate data from multiple sources, improving data accuracy and consistency to support reliable business reporting and decision-making.',
+    ],
+  },
+  {
+    period: 'Jan 2025 – May 2025',
     company: 'GPT Softwares',
     role: 'Software Development Intern',
     context: 'Frontend development exposure',
-    description: 'Built practical foundations across HTML, CSS, JavaScript and Java, strengthening structured problem solving, attention to detail and the clear communication needed for technology and business analysis.',
+    description: [
+      'Built practical foundations across HTML, CSS, JavaScript and Java, strengthening structured problem solving, attention to detail and the clear communication needed for technology and business analysis.',
+    ],
   },
 ];

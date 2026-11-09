@@ -123,6 +123,7 @@ h1 em, h2 em { font-style: italic; font-weight: 400; }
 .experience-role { margin-bottom: 17px; color: #74756e; font-size: 12px; }
 .experience-role span { color: #b0b0a8; padding: 0 4px; }
 .experience-description { max-width: 475px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.experience-description + .experience-description { margin-top: 14px; }
 .learning-section { background: var(--white); }
 .learning-list { border-top: 1px solid var(--line); }
 .learning-row { display: grid; grid-template-columns: 115px 1fr 112px 24px; align-items: center; gap: 25px; min-height: 85px; border-bottom: 1px solid var(--line); }
