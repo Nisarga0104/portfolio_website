@@ -1,7 +1,7 @@
 export const expertise = [
   { number: '01', title: 'Data Analysis', description: 'Data cleaning, exploratory analysis, trend identification and insight generation.' },
   { number: '02', title: 'Business Intelligence', description: 'Interactive dashboards, KPI reporting and visual storytelling for decision-makers.' },
-  { number: '03', title: 'Business Analysis', description: 'Customer behaviour, process thinking, requirements and business-focused recommendations.' },
+  { number: '03', title: 'Business Analysis', description: 'Requirements gathering, BRD & FRD documentation, SDLC, Agile/Scrum/Waterfall delivery, UAT and test case management.' },
   { number: '04', title: 'Data Tools', description: 'Python, Pandas, NumPy, SQL, MySQL, Power BI, Excel and data visualisation.' },
   { number: '05', title: 'AI Governance', description: 'Risk management, governance frameworks, controls and responsible deployment.' },
   { number: '06', title: 'AI Ethics', description: 'Fairness, bias, transparency, accountability and human impact.' },
@@ -20,6 +20,8 @@ export const frameworks = [
   { title: 'LLM & RAG', items: 'LLM Concepts · RAG Concepts' },
   { title: 'NIST AI Risk Management Framework', items: 'Govern · Map · Measure · Manage' },
   { title: 'EU AI Act', items: 'Risk Classification · Compliance · Governance' },
+  { title: 'Project Delivery Methods', items: 'Agile · Scrum · Waterfall · SDLC' },
+  { title: 'Requirements & Testing', items: 'BRD · FRD · UAT · Test Cases' },
   { title: 'Responsible AI', items: 'Fairness · Transparency · Accountability' },
   { title: 'AI Security & Governance', items: 'Privacy · Security · Access Controls' },
 ];
@@ -27,6 +29,18 @@ export const frameworks = [
 export const projects = [
   {
     number: '01',
+    title: 'Customer Support & Service Management System',
+    category: 'Business Analysis · Case Study',
+    description: [
+      'Developed 16 Business Analysis deliverables across 5 project workstreams, covering project initiation, stakeholder analysis, BRD, FRD, AS-IS/TO-BE process flows, user stories, wireframes and UAT documentation.',
+      'Established end-to-end requirements traceability using a Requirements Traceability Matrix (RTM), linking business requirements with functional specifications, user stories and UAT test cases.',
+      'Documented Agile, Scrum and Waterfall delivery approaches, including a Scrum sprint plan and comparative project lifecycle workflows.',
+    ],
+    tags: ['Business Analysis', 'Agile', 'Scrum', 'Waterfall', 'SDLC', 'BRD', 'FRD', 'UAT', 'Test Cases'],
+    href: 'https://github.com/Nisarga0104/Customer-Support-Management-System',
+  },
+  {
+    number: '02',
     title: 'Olist E-Commerce Customer Retention & Sales Analysis',
     category: 'Power BI · Excel',
     description: 'Built a 2-page interactive dashboard using 8 supporting datasets to analyse 93,358 unique customers; identified 2,801 repeat customers and a 3.0% repeat purchase rate.',
@@ -34,7 +48,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '02',
+    number: '03',
     title: 'E-Commerce Sales & Customer Behaviour Analysis',
     category: 'Python · Pandas · NumPy · Matplotlib · Seaborn',
     description: 'Cleaned 541,909 transaction records to 524,878 and analysed £10.64M in revenue; developed 7 analytical views and identified a 65.58% repeat purchase rate across 4,338 customers.',
@@ -42,7 +56,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '03',
+    number: '04',
     title: 'Retail Inventory & Supply Chain Performance Dashboard',
     category: 'Power BI · Excel',
     description: 'Developed an interactive dashboard tracking sales revenue, units sold, low-stock products, late purchase orders and supplier on-time delivery to support inventory and procurement monitoring.',
@@ -50,7 +64,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '04',
+    number: '05',
     title: 'Retail Order Analytics & Performance Analysis',
     category: 'MySQL · SQL · Power BI',
     description: 'Designed a retail analytics database with SQL queries and analytical views; analysed 12 return records across 6 distinct returned order items and 13,148.30 in recorded refunds.',
@@ -58,7 +72,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '05',
+    number: '06',
     title: 'Enterprise AI Risk & Governance Assessment',
     category: 'ISO 42001 · NIST AI RMF · Governance',
     description: 'Mapped high-risk decision models (credit scoring/hiring) against ISO 42001 and NIST AI RMF to build risk treatment plans, Model Cards, and HITL oversight controls.',
@@ -66,7 +80,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/NIST_AI_RMF_Risk_Assessment',
   },
   {
-    number: '06',
+    number: '07',
     title: 'Algorithmic Bias Audit & Analysis',
     category: 'AI Ethics · Fairness · Algorithmic Risk',
     description: 'Audited real-world discriminatory AI failures (COMPAS/hiring algorithms) to identify lifecycle vulnerabilities and establish Disparate Impact Ratio testing.',
@@ -74,7 +88,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/compas-bias-audit',
   },
   {
-    number: '07',
+    number: '08',
     title: 'Enterprise Responsible AI Policy & Shadow AI Governance',
     category: 'AI Governance · Policy · Security',
     description: 'Authored a company-level usage policy regulating Shadow AI, data privacy, prompt injection security, and tiered risk-classification pathways.',
@@ -82,7 +96,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/Responsible-AI-Policy-Northstar-FinTech-Services',
   },
   {
-    number: '08',
+    number: '09',
     title: 'Cross-Jurisdiction AI Regulatory & Compliance Brief',
     category: 'AI Regulation · Compliance · Policy',
     description: 'Developed a comparative compliance matrix analyzing high-risk AI tools across the EU AI Act, US State Laws, and India’s DPDP Act.',
@@ -90,7 +104,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/Global-AI-Regulatory-Comparison-Brief-EU-US-India-',
   },
   {
-    number: '09',
+    number: '10',
     title: 'Third-Party AI Vendor Risk Assessment & Vetting Framework',
     category: 'AI Security · Vendor Risk · ISO 42001',
     description: 'Architected a quantitative vendor vetting template to audit external AI tools on data provenance, model lineage, and ISO 42001 compliance.',
@@ -121,8 +135,9 @@ export const experience = [
     company: 'Pawar Tech Services Pvt. Ltd.',
     role: 'Data Analyst Intern',
     description: [
-      'Developed and maintained Power BI dashboards, KPI scorecards and management reports, using Python and Excel to monitor business performance, identify operational bottlenecks and support process improvement.',
-      'Built SQL-based ETL workflows to extract, transform and validate data from multiple sources, improving data accuracy and consistency to support reliable business reporting and decision-making.',
+      'Developed 5 Power BI dashboards tracking 16+ business KPIs, giving managers visibility into sales and operational performance.',
+      'Discussed dashboard requirements and reporting findings directly with managers, translating business needs into relevant reports and actionable insights.',
+      'Built SQL-based ETL workflows and used Python (Pandas, NumPy) to extract, transform, analyse and validate 30,000+ records from multiple sources, supporting data consistency and reporting reliability.',
     ],
   },
   {

@@ -4,9 +4,9 @@ export function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-copy">
-        <p className="eyebrow hero-eyebrow">DATA ANALYST <span>•</span> BI ANALYST <span>•</span> BUSINESS ANALYST</p>
+        <p className="eyebrow hero-eyebrow">BUSINESS ANALYST <span>•</span> CUSTOMER SUCCESS <span>•</span> PRODUCT SUPPORT</p>
         <h1>Turning Data into <em>Decisions</em> that Drive Impact.</h1>
-        <p className="hero-summary">I work at the intersection of data, business intelligence, technology and responsible AI — turning complex information into actionable insights, while keeping governance, safety and strategic impact at the centre.</p>
+        <p className="hero-summary">I bridge business needs and technology to turn complex requirements into actionable solutions — helping organisations make better decisions, streamline operations and deliver meaningful customer experiences.</p>
         <div className="hero-actions">
           <a className="button button-dark" href="#work">Explore my work <ArrowDown size={16} /></a>
           <a className="text-link" href="/Nisarg_Kamble_DA.pdf" download="Nisarg_Kamble_DA.pdf">Download resume <ArrowUpRight size={15} /></a>
