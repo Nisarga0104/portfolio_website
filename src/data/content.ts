@@ -9,6 +9,7 @@ export const expertise = [
   { number: '08', title: 'AI Security', description: 'AI security, privacy, access controls and responsible data practices.' },
   { number: '09', title: 'AI Strategy', description: 'AI adoption, business alignment, transformation and responsible strategy.' },
   { number: '10', title: 'Responsible AI', description: 'Practical principles and controls for trustworthy AI systems.' },
+  { number: '11', title: 'CLM & Workflow Management', description: 'Contract lifecycle management, metadata, templates, approval workflows, obligation tracking, renewal management and contract risk review.' },
 ];
 
 export const frameworks = [
@@ -24,11 +25,26 @@ export const frameworks = [
   { title: 'Requirements & Testing', items: 'BRD · FRD · UAT · Test Cases' },
   { title: 'Responsible AI', items: 'Fairness · Transparency · Accountability' },
   { title: 'AI Security & Governance', items: 'Privacy · Security · Access Controls' },
+  { title: 'Contract Lifecycle Management', items: 'Contract Metadata · Templates · Approval Workflows' },
+  { title: 'Contract Operations', items: 'Obligation Tracking · Renewal Management · Contract Risk Review' },
 ];
 
 export const projects = [
   {
     number: '01',
+    title: 'ContractFlow – Contract Lifecycle Management (CLM) Simulation',
+    category: 'CLM · Case Study · 2026',
+    description: [
+      'Designed an independent CLM simulation covering contract creation, centralized contract records, approval workflows and obligation tracking.',
+      'Defined value-based approval rules involving Manager, Legal and Finance reviews.',
+      'Documented functional requirements, workflow logic and UAT scenarios in a detailed case study.',
+    ],
+    tags: ['CLM', 'Contract Lifecycle Management', 'Contract Metadata', 'Contract Templates', 'Approval Workflows', 'Obligation Tracking', 'Renewal Management', 'Contract Risk Review'],
+    href: 'https://github.com/Nisarga0104/ContractFlow-CLM',
+    liveHref: 'https://contractflow-clm.vercel.app',
+  },
+  {
+    number: '02',
     title: 'Customer Support & Service Management System',
     category: 'Business Analysis · Case Study',
     description: [
@@ -40,7 +56,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/Customer-Support-Management-System',
   },
   {
-    number: '02',
+    number: '03',
     title: 'Olist E-Commerce Customer Retention & Sales Analysis',
     category: 'Power BI · Excel',
     description: 'Built a 2-page interactive dashboard using 8 supporting datasets to analyse 93,358 unique customers; identified 2,801 repeat customers and a 3.0% repeat purchase rate.',
@@ -48,7 +64,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '03',
+    number: '04',
     title: 'E-Commerce Sales & Customer Behaviour Analysis',
     category: 'Python · Pandas · NumPy · Matplotlib · Seaborn',
     description: 'Cleaned 541,909 transaction records to 524,878 and analysed £10.64M in revenue; developed 7 analytical views and identified a 65.58% repeat purchase rate across 4,338 customers.',
@@ -56,7 +72,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '04',
+    number: '05',
     title: 'Retail Inventory & Supply Chain Performance Dashboard',
     category: 'Power BI · Excel',
     description: 'Developed an interactive dashboard tracking sales revenue, units sold, low-stock products, late purchase orders and supplier on-time delivery to support inventory and procurement monitoring.',
@@ -64,7 +80,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '05',
+    number: '06',
     title: 'Retail Order Analytics & Performance Analysis',
     category: 'MySQL · SQL · Power BI',
     description: 'Designed a retail analytics database with SQL queries and analytical views; analysed 12 return records across 6 distinct returned order items and 13,148.30 in recorded refunds.',
@@ -72,7 +88,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104',
   },
   {
-    number: '06',
+    number: '07',
     title: 'Enterprise AI Risk & Governance Assessment',
     category: 'ISO 42001 · NIST AI RMF · Governance',
     description: 'Mapped high-risk decision models (credit scoring/hiring) against ISO 42001 and NIST AI RMF to build risk treatment plans, Model Cards, and HITL oversight controls.',
@@ -80,7 +96,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/NIST_AI_RMF_Risk_Assessment',
   },
   {
-    number: '07',
+    number: '08',
     title: 'Algorithmic Bias Audit & Analysis',
     category: 'AI Ethics · Fairness · Algorithmic Risk',
     description: 'Audited real-world discriminatory AI failures (COMPAS/hiring algorithms) to identify lifecycle vulnerabilities and establish Disparate Impact Ratio testing.',
@@ -88,7 +104,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/compas-bias-audit',
   },
   {
-    number: '08',
+    number: '09',
     title: 'Enterprise Responsible AI Policy & Shadow AI Governance',
     category: 'AI Governance · Policy · Security',
     description: 'Authored a company-level usage policy regulating Shadow AI, data privacy, prompt injection security, and tiered risk-classification pathways.',
@@ -96,7 +112,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/Responsible-AI-Policy-Northstar-FinTech-Services',
   },
   {
-    number: '09',
+    number: '10',
     title: 'Cross-Jurisdiction AI Regulatory & Compliance Brief',
     category: 'AI Regulation · Compliance · Policy',
     description: 'Developed a comparative compliance matrix analyzing high-risk AI tools across the EU AI Act, US State Laws, and India’s DPDP Act.',
@@ -104,7 +120,7 @@ export const projects = [
     href: 'https://github.com/Nisarga0104/Global-AI-Regulatory-Comparison-Brief-EU-US-India-',
   },
   {
-    number: '10',
+    number: '11',
     title: 'Third-Party AI Vendor Risk Assessment & Vetting Framework',
     category: 'AI Security · Vendor Risk · ISO 42001',
     description: 'Architected a quantitative vendor vetting template to audit external AI tools on data provenance, model lineage, and ISO 42001 compliance.',

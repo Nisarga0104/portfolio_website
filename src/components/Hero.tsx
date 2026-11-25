@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-copy">
-        <p className="eyebrow hero-eyebrow">BUSINESS ANALYST <span>•</span> CUSTOMER SUCCESS <span>•</span> PRODUCT SUPPORT</p>
+        <p className="eyebrow hero-eyebrow">FUNCTIONAL CONSULTANT <span>•</span> CLM <span>•</span> BUSINESS ANALYSIS</p>
         <h1>Turning Data into <em>Decisions</em> that Drive Impact.</h1>
         <p className="hero-summary">I bridge business needs and technology to turn complex requirements into actionable solutions — helping organisations make better decisions, streamline operations and deliver meaningful customer experiences.</p>
         <div className="hero-actions">
